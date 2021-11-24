@@ -1,0 +1,2 @@
+python=x.x.x
+django=x.x.x

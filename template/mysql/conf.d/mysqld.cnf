@@ -1,0 +1,15 @@
+[mysqld]
+# Listening IP
+bind-address            = 0.0.0.0
+
+# LOGGING
+general_log                     = 1
+general_log_file                = /var/log/mysql/mysql.log
+log-error                       = /var/log/mysql/mysql-error.log
+slow_query_log                  = 1
+slow_query_log_file             = /var/log/mysql/mysql-slow.log
+long_query_time                 = 1
+log-queries-not-using-indexes   = 1
+
+
+sql_mode = "STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION"

@@ -1,0 +1,22 @@
+### Ignore files of Python ###
+
+### Ignore files of Python ###
+/python/logs/*
+
+### Ignore files of DB ###
+/mysql/data/*
+/mysql/logs/*
+
+
+# =====================================
+# =====================================
+
+
+### Not ignore files of Python ###
+
+### Ignore files of Python ###
+!/python/logs/index.html
+
+### Not ignore files of DB ###
+!/mysql/data/index.html
+!/mysql/logs/index.html
