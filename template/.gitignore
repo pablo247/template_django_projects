@@ -1,6 +1,6 @@
 ### Ignore files of Python ###
 
-### Ignore files of Python ###
+### Ignore config files of Python ###
 /python/logs/*
 
 ### Ignore files of DB ###
@@ -14,7 +14,7 @@
 
 ### Not ignore files of Python ###
 
-### Ignore files of Python ###
+### Not ignore config files of Python ###
 !/python/logs/index.html
 
 ### Not ignore files of DB ###
